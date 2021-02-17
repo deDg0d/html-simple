@@ -1,0 +1,1 @@
+it is a simple HTML + CSS + JAVASCRIPT project for absolute begginers
