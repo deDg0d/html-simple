@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='./index.css'>
-
-    <title>Document</title>
+    <script src='index.js'></script>
+    <title>Daniel</title>
 </head>
 <body>
-    <div class="overlay">
-        <div class="modal">
-            <div class="modal-header">
-            Header</div>
-            <div class="modal-body">
-                
-                Lorem ipsum! dolor sit amet consectetur adipisicing elit. In velit illo architecto obcaecati ipsa harum repellat voluptas nisi. Dolorum non perferendis dignissimos accusantium, rem tempora voluptatibus velit laudantium eum vitae.
+<!-- navbar section-->
+    <div class='navbar'>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            <a href='#' id='search-icon'>&#8981;</a>
+            <a href='#'>&#8981;</a>
+            <a href='#'>Home</a>
+            <a href='#'>articles</a>
+        <div class="dropdown">
+            <a href='#' class='drop-btn'>news</a>
+        
+            <div class="dropdown-content">
+                <a href='#'>link1</a>
+                <a href='#'>link2</a>
+                <a href='#'>link3</a>
             </div>
-                <div class="modal-footer">Footer!</div>
-     </div>
+        </div>
     </div>
-</body>
+
+  <!-- sidebar section-->
+    <div id='myNav'class="overlay">
+    <a href='javascript:void(0)' class='closebtn' onclick="closeNav()">&times;</a>
+ <div class='overlay-content'>
+     <a href='#' >Home</a>
+     <a href='#' >About</a>
+     <a href='#' >Help</a>
+     <a href='#' >Contact</a>   
+ </div>
+    </div>
+    <div class='dropdown-mid'>
+        <button class='butt'>button</button>
+        <div class="dropdown-midcontent">
+        <a href='#' >Home</a>
+        <a href='#' >Home</a>
+        <a href='#' >Home</a>
+    </div>
+    </div>
+  </body>
 </html>

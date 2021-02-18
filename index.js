@@ -1,10 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-class Test extends React.Component {
-  render() {
-    return <h1>Hello World!</h1>;
-  }
+function openNav(){
+  document.getElementById('myNav').style.width='25%'
 }
-
-ReactDOM.render(<Test />, document.getElementById('root'));
+function closeNav(){
+  document.getElementById('myNav').style.width='0%'
+}
