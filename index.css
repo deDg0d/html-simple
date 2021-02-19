@@ -132,7 +132,7 @@ overflow: hidden;
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-/* dropdown midlle*/
+/* dropdown midlle
 .dropdown-midcontent{
     display: none; 
 }
@@ -144,4 +144,24 @@ overflow: hidden;
 
 display:block;
 
+}*/
+.main-img{
+  
+  max-width:100% ;
+  height:100vh;
+  top:0;
+  background-image: url('20_DesignPickle_Zoom_Background-27.jpg');
+  background-size: cover;
+  
+  background-position: center; /* Center the image */
+
+}
+.welcome-text {
+  
+position: block;
+
+color:white;
+
+  
+  
 }
