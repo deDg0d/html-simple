@@ -49,7 +49,7 @@
     }
 }
 .navbar{
-background-color: black;
+background-color: rgb(1, 11, 15);
 overflow: hidden;
 
 
@@ -180,7 +180,7 @@ text-align: center;
   margin-top:12px;
   height:25px; 
   border-bottom:1px solid orange ;
-  background-color:rgb(47, 48, 45);
+  background-color:rgb(15, 15, 15);
   margin-right: 4px;
   visibility: hidden;
   transition:0.5s;
@@ -188,3 +188,14 @@ text-align: center;
   
 }
 
+
+
+/*                   
+contact part
+
+
+*/
+.contact{
+  width:100%;
+  background-color: black;
+}
