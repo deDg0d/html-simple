@@ -49,7 +49,7 @@
     }
 }
 .navbar{
-background-color: rgb(1, 11, 15);
+background-color: rgb(23, 23, 24);
 overflow: hidden;
 
 
@@ -195,7 +195,88 @@ contact part
 
 
 */
-.contact{
+.footer{
+  position:relative;
   width:100%;
-  background-color: black;
+  background-color: rgb(24, 22, 22);
+  height:200px;
+  padding:1% 5% 20% 5% ;
+  margin-bottom:0;
+  bottom:0;
+  
+  
+}
+.footer div{
+  width:25%;
+  float:left;
+  color:rgb(243, 245, 238);
+  text-align: center;
+  font-size: 24px;
+  bottom:20%;
+}
+.footer a{
+  display: block;
+  text-decoration: none;
+  color: rgb(189, 221, 130);
+}
+.social-media{
+  border:2px solid rgb(166, 255, 0);
+  margin-top: 20px;
+  margin-left:37%;
+  margin-right:37%;
+  width:26% !important;
+  text-align:center;
+
+}
+.media-links{
+  width: 33%!important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left:33%;
+  margin-right:33%;
+  margin-top:3px; 
+}
+.media-links a{
+  padding-right:5px
+}
+@media screen and (max-width:736px){
+  .footer div{ width:50%}
+  .footer{height:350px}
+}
+@media screen and (max-width:480){
+  .footer div{ width:100%}
+  .footer{height:500px}
+}
+.big-main{
+  width:65%;
+  border:1px solid green;
+  padding:4px;
+ float:left;
+}
+.right-aside{
+  width:15%;
+  border:1px solid red;
+  height:20px;
+  float:left;
+  padding:4px;
+}
+.left-aside{
+  width:20%;
+  border:1px solid red;
+  height:auto;
+  float:left;
+  padding:2px;
+}
+.main::after{
+  display: table;
+  content:'';
+  clear:both;
+}
+
+@media screen and(max-width:736px){
+  
+  .big-main{width:100%;}
+  .right-aside{width:100%}
+  .left-aside{width:100%}
 }
