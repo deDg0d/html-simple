@@ -203,7 +203,7 @@ contact part
   padding:1% 5% 20% 5% ;
   margin-bottom:0;
   bottom:0;
-  
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 .footer div{
@@ -244,29 +244,36 @@ contact part
   .footer div{ width:50%}
   .footer{height:350px}
 }
-@media screen and (max-width:480){
+@media screen and (max-width:480px){
   .footer div{ width:100%}
-  .footer{height:500px}
+  .footer{height:550px}
 }
 .big-main{
-  width:65%;
+  width:67%;
   border:1px solid green;
   padding:4px;
  float:left;
-}
+ margin-left: 1%;
+ margin-top:1%;
+ margin-right:1%;
+}/*
 .right-aside{
   width:15%;
   border:1px solid red;
   height:20px;
   float:left;
   padding:4px;
-}
+}*/
 .left-aside{
-  width:20%;
-  border:1px solid red;
+  width:30%;
+  border:1px solid lightgray;
   height:auto;
   float:left;
-  padding:2px;
+  margin-left: 1%;
+  margin-top:1%;
+  margin-bottom: 10px;
+  padding:4px;
+  box-shadow: 5px 10px 5px grey;
 }
 .main::after{
   display: table;
@@ -274,9 +281,21 @@ contact part
   clear:both;
 }
 
-@media screen and(max-width:736px){
+@media screen and (max-width:736px){
+ .big-main{width:97%}
+ .left-aside{width: 97%;}
+ /*
+ .right-aside{width:100%}
+ */
+}
+.left-aside i,span{
+  color:#84af4c
+}
+.left-aside p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:#333030;
   
-  .big-main{width:100%;}
-  .right-aside{width:100%}
-  .left-aside{width:100%}
+  padding:2px 2px 10px
+
 }
