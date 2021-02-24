@@ -20,3 +20,7 @@ function closeSearchBox(){
   }else{null
 }
 }
+
+function text(){
+document.getElementById('time').innerHTML='time'
+}
