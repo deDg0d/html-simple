@@ -20,7 +20,7 @@ function closeSearchBox(){
   }else{null
 }
 }
-window.onload =function() {time()}
+window.onload =function() {time(),scrape()}
 function time(){
 
 setInterval(timer,1000)
@@ -41,17 +41,21 @@ function scrollFunction() {
     document.getElementById('button-up').style.display = "none";
   }
 }
-window.onload=function(){
-  scrape()
+function smoke(){
+  document.getElementById('speed').style.display='block'
+}
+function unsmoke(){
+  document.getElementById('speed').style.display='none'
 }
 function scrape(){
   
     (async()=>{
- const req= await fetch('https://medium.com/@bretcameron/how-to-build-a-web-scraper-using-javascript-11d7cd9f77f2')
- const res=await req.text()
- const price=document.getElementsById('7327')
-console.log(price)
- document.getElementById('scrape').innerHTML=price
+     
+     
+ const req= await fetch('http://127.0.0.1:8000/polls/')
+ const res= await req.json()
+ console.log( res);
+
 })()
 
 }
