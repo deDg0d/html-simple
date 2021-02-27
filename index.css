@@ -354,9 +354,9 @@ background-color:#84af4c;
   }
  .speed-meter{
    position: relative;
-   width:33%;
-   margin:0% 33% 0% 33%;
-   padding-top:10%;
+   width:20%;
+   margin:10% 50% 2% 30%;
+   
    text-align: center;
  }
 .speed-meter .tire{
@@ -392,7 +392,8 @@ animation-timing-function: linear;
    to{transform: translateX(-200px);}
  }
  .slider{
-  margin: 10px 2% 0 2%;
+  margin-top: 1%;
+  
    width:94%; 
  }
  
