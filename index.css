@@ -354,10 +354,8 @@ background-color:#84af4c;
   }
  .speed-meter{
    position: relative;
-   width:20%;
-   margin:10% 60% 5% 20%;
-   padding-top:11%;
-   padding-left:10%;
+   width:100%;
+  
    
    
    text-align: center;
