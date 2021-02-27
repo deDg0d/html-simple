@@ -105,10 +105,15 @@
         <img alt='tire' onmousedown='smoke()' onmouseup="unsmoke()" class='tire' width='270px' height='250px' src='img/tire.gif'/>
     
         <div class='speed' id='speed'>
-            <img alt='smoke'  class='smoke' width=250px height=250px src='img/smoke.gif' />
+            <img alt='smoke'  class='smoke' width=200px height=200px src='img/smoke.gif' />
         </div>
+        
     </div>    
-    
+    <div class="speed-slider">
+        <input oninput="slider()" step='10' type='range' min='0' max='100' value='10' id='slider' class='slider'>
+    <p>Speed:<span id='slider-output'></span></p>
+    </div>
+
 <div id='scrape'>
 </div>
 

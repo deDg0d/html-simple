@@ -47,15 +47,9 @@ function smoke(){
 function unsmoke(){
   document.getElementById('speed').style.display='none'
 }
-function scrape(){
-  
-    (async()=>{
-     
-     
- const req= await fetch('http://127.0.0.1:8000/polls/')
- const res= await req.json()
- console.log( res);
+function slider(){
+const value=document.getElementById('slider').value
 
-})()
-
+document.getElementById('slider-output').innerHTML=value
 }
+

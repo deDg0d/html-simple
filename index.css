@@ -356,6 +356,7 @@ background-color:#84af4c;
    position: relative;
    width:33%;
    margin:0% 33% 0% 33%;
+   padding-top:10%;
    text-align: center;
  }
 .speed-meter .tire{
@@ -369,9 +370,7 @@ animation-timing-function: linear;
    from {transform: rotate(0deg);}
    to {transform: rotate(360deg);}
  }
- .speed-meter .tire:hover{
-   animation-duration: 2s;
- }
+ 
  .speed-meter .tire:active {
   
    animation-duration: 0.5s;
@@ -380,7 +379,7 @@ animation-timing-function: linear;
  .speed{
    display: none;
    position: absolute;
-   top:25%;
+   top:55%;
    right:90%;
    animation-name: smoke;
    animation-duration: 1s;
@@ -392,3 +391,8 @@ animation-timing-function: linear;
    from{transform: translateX(0px);}
    to{transform: translateX(-200px);}
  }
+ .slider{
+  margin: 10px 2% 0 2%;
+   width:94%; 
+ }
+ 
