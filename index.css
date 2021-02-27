@@ -355,9 +355,9 @@ background-color:#84af4c;
  .speed-meter{
    position: relative;
    width:20%;
-   margin:10% 50% 2% 10%;
-   padding-top:5%;
-   padding-left:5%;
+   margin:10% 60% 5% 20%;
+   padding-top:11%;
+   padding-left:10%;
    
    
    text-align: center;
@@ -395,7 +395,7 @@ animation-timing-function: linear;
    to{transform: translateX(-200px);}
  }
  .slider{
-  margin-top: 1%;
+  margin-top: 2%;
   
    width:94%; 
  }
