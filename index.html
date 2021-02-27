@@ -102,7 +102,7 @@
 
 <div class=second-main>
     <div class='speed-meter'>
-        <img alt='tire' onmousedown='smoke()' onmouseup="unsmoke()" class='tire' width='230px' height='210px' src='img/tire.gif'/>
+        <img alt='tire' onmousedown='smoke()' onmouseup="unsmoke()" class='tire' id='tire' width='230px' height='213px' src='img/tire.gif'/>
     
         <div class='speed' id='speed'>
             <img alt='smoke'  class='smoke' width=200px height=200px src='img/smoke.gif' />
@@ -110,8 +110,9 @@
         
     </div>    
     
-        <input oninput="slider()" step='10' type='range' min='0' max='100' value='10' id='slider' class='slider'>
+        <input oninput="slider()" step='20' type='range' min='0' max='100' value='20' id='slider' class='slider'>
     <p>Speed:<span id='slider-output'></span></p>
+    <p id='speed-meter'></p>
     
 
 <div id='scrape'>

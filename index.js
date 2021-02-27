@@ -20,7 +20,7 @@ function closeSearchBox(){
   }else{null
 }
 }
-window.onload =function() {time(),scrape()}
+window.onload =function() {time()}
 function time(){
 
 setInterval(timer,1000)
@@ -51,5 +51,27 @@ function slider(){
 const value=document.getElementById('slider').value
 
 document.getElementById('slider-output').innerHTML=value
+const speedMeter=document.getElementById('tire')
+
+
+if (value==0){
+  speedMeter.style.animationDuration='100000s'
+}
+if (value==20){
+  speedMeter.style.animationDuration='4s'
+}
+if (value==40){
+  speedMeter.style.animationDuration='1s'
+}
+if (value==60){
+  speedMeter.style.animationDuration='0.5s'
+}
+if (value==80){
+  speedMeter.style.animationDuration='0.05s'
+}
+if (value==100){
+  speedMeter.style.animationDuration='0.00009s'
+}
+
 }
 
