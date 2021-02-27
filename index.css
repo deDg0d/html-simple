@@ -355,7 +355,8 @@ background-color:#84af4c;
  .speed-meter{
    position: relative;
    width:20%;
-   margin:10% 50% 2% 30%;
+   margin:10% 50% 2% 10%;
+   
    
    text-align: center;
  }
