@@ -398,4 +398,27 @@ animation-timing-function: linear;
   
    width:94%; 
  }
+ #mouse-loc{
+   display:flex;
+   height:200px;
+   width:98%;
+   margin:1% 1% 1% 1% ;
+   border:1px solid red;
+   overflow: hidden;
+   user-select: none;
+   padding:1% 1% 1% 1% 
+  }
+  
+.scroll-section{
+  background-color: rgb(243, 243, 243);
+  margin:1% 1% 1% 1% ;
+  padding:1% 1% 1% 1% 
+}
+.colorw{
+ background-color: black;
+ min-width:200px;
+ display:inline;
+ margin-left: 20px;
  
+  
+}
