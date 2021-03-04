@@ -1,5 +1,5 @@
 function openNav(){
-  document.getElementById('myNav').style.width='35%'
+  document.getElementById('myNav').style.width='45%'
 }
 function closeNav(){
   document.getElementById('myNav').style.width='0%'
@@ -22,15 +22,8 @@ function closeSearchBox(){
 }
 window.onload =function() {time(),scroll()}
 function time(){
-//appending child to scrolling  section 
-for (let i = 0; i<20 ; i++) { 
 
-const cursor=document.getElementById('mouse-loc') 
-//const node = document.createElement('div')
-//const textnode = document.createTextNode('')
-//node.appendChild(textnode)
-//cursor.appendChild(node)
-}
+
 setInterval(timer,1000)
 function timer(){
   const date=new Date()
@@ -96,7 +89,7 @@ function json2(){
 }//scrolling part
 let isDown=false
 let clicked = 0
-let moveBack = false
+let moveBack
 function mouseDown(event){
   isDown=true 
 
@@ -110,11 +103,17 @@ function mouseUp(event){
   const cursor=document.getElementById('mouse-loc') 
   cursor.style.border='1px solid red'
 }     
-      
+  
 function mouseMove(event){
-  var x = event.clientX;  
-    const cursor=document.getElementById('mouse-loc')   
+  
+  var x = event.clientX; 
+  
+  var check=[]
+  const cursor=document.getElementById('mouse-loc')
+ 
+  
      
+     console.log(check)
     return(scroll(x))
 }
 function scroll(move){

@@ -37,9 +37,10 @@
     <a href='javascript:void(0)' class='closebtn' onclick="closeNav()">&times;</a>
  <div class='overlay-content'>
      <a href='#' >Home</a>
-     <a href='#' >About</a>
-     <a href='#' >Help</a>
-     <a href='#' >Contact</a>   
+     <a href='#leftaside' >About</a>
+     <a href='#education' >Education</a>
+     <a href='#speed-meter' >speedmeter</a>
+     <a href='#footer' >Contact</a>   
  </div>
     </div>
     
@@ -51,8 +52,8 @@
     </div>
     <!-- main part-->
     <main class='main'>
-    
-        <div class='left-aside'>
+    <!--left sidebar part-->
+        <div id=leftaside class='left-aside'>
         
 <img alt='creator image' style='margin-left:1px;margin-right:1px ;'width='100%'  src='img/IMG_8369.jpg'/>
 <p><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>  Front End Developer</p>
@@ -77,7 +78,7 @@
 </div>
 
         <div class="big-main">
-           <div class="education">
+           <div id=education class="education">
                <h2><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
                <p> Iran University of Science and Technology</p>
                <p><i class="fa fa-map-marker" style=font-size:24px; ></i> Tehran,Iran</p>
@@ -103,7 +104,7 @@
 </main>
 
 <div class=second-main>
-    <div class='speed-meter'>
+    <div id='speed-meter' class='speed-meter'>
         <img alt='tire' onmousedown='smoke()' onmouseup="unsmoke()" class='tire' id='tire' width='230px' height='213px' src='img/tire.gif'/>
     
         <div class='speed' id='speed'>
@@ -146,10 +147,10 @@
 
 </div>
    <!--go to top bottom-->
-   <button id=button-up onclick=topFunction() ><a href='#'>Top</a></button>
+   <button id=button-up  ><a href='#'>Top</a></button>
 
     <!-- the final part(footer)-->
-    <footer class="footer">
+    <footer id=footer class="footer">
         <div>footer
             <a href='#'>item</a>
             <a href='#'>item</a>
