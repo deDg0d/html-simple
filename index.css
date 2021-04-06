@@ -337,7 +337,8 @@ padding-top:10px
   display: flex;
   margin-left:25%
 }
-.second-main{
+/*light grey parts*/
+.second-main , .google-map{
   background-color: lightgray;
   margin:1% 1% 1% 1%;
   height:500px}

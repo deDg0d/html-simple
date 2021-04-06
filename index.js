@@ -129,7 +129,25 @@ if(isDown==true){
   
 
   }}
+function myMap(){
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+  }
+  var map = new google.maps.Map(document.getElementById('googleMap'),mapProp)
+}
+const axios = require('axios')
+function server(){
+  
+  axios.get('https://www.varzesh3.com/livescore')
+  .then((res)=>{console.log(res)
 
+  })
+  fetch('https://simple-server-api.herokuapp.com/burgers/1')
+  .then((data)=> data.json())
+  .then(json => console.log(json.name))
+  
+}
 
 
 
